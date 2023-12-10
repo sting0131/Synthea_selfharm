@@ -11,3 +11,6 @@ java -jar synthea-with-dependencies.jar
 
 {\Large Generate csv files for self-harm in adult cases:}
 java -jar synthea-with-dependencies.jar -m self_harm -p 1000000 --exporter.csv.export true --exporter.subfolders_by_id_substring true
+
+
+Created using Python version 3.11.4
